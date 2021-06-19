@@ -1,2 +1,2 @@
-# cpp_template
+# cpp template
 c++ template for cp and resources
