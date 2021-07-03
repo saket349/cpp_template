@@ -1,5 +1,6 @@
 # RESOURCES:
-> [SEGMENT TREE 1 ](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)using update and query example
+> [SEGMENT TREE 1 ](https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/)using update and query example 
+
 > [SEGMENT TREE 2 ](https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/)range minimum query
 
 
