@@ -1,4 +1,5 @@
-//******Jai Hanuman*****************
+//******Shree Krishna****************
+//******Jai Hanuman******************
 //******Saket Kumaer*****************
 #include<bits/stdc++.h>
 using namespace std;
@@ -24,6 +25,7 @@ using namespace std;
 #define no	        cout<<"NO\n"
 //==================================================================================
 const int mod = 1000000007;
+const ll zero = 0;
 //==================================================================================
 //-----------------------FUNCTIONS-------------------------------------------------------------------------------------------------------
 //---Returns x^n ---------
@@ -97,6 +99,22 @@ int modInverse(int a, int m)
 		x += m0;
 	return x;
 }
+// TC: O(RlogN)
+ll ncr(ll n, ll r){
+   ll p = 1, k = 1;
+   if(n-r < r) r = n-r;
+   if(r!=0){
+	while(r){
+	 p = p * n;
+	 k = k *r;
+ 	 ll m = __gcd(p,k);
+	 p = p/m;
+	 k = k/m;
+	 n--; r--;
+	}
+    }
+    return p;
+}
 // asc sort
 bool sortcol( const vector<ll>& v1,
                const vector<ll>& v2 ) {
@@ -107,9 +125,12 @@ bool sortcol( const vector<ll>& v1,
 //__gcd(a,b)  to calculate gcd of two numbers
 /*
 	priority_queue <T, vector<T>, greater<T>> pq; // 30    20    10    5    1
+	cout << setprecision(12) << fixed << ans << '\n';
 	
 */
+void solve(){
 
+}
 
 int main()
 {
@@ -119,7 +140,7 @@ cin.tie(0); cout.tie(0);
     cin>>t;
     while(t--)
     {
-     
+      solve();
     }
 return 0;
 }
